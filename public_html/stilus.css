@@ -4,7 +4,12 @@ main{
     margin: auto;
 }
 body{
-    background: lightgoldenrodyellow;
+    background-image: url("kepek/hatter1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+article{
+    background-color: whitesmoke;
 }
 table, td, th{
     border: 1px solid gray;
@@ -16,6 +21,19 @@ table{
 th {
     background: linear-gradient(180deg,#c80000,#ffffff,#09ab23);
     
+}
+section{
+    background-color: whitesmoke;
+}
+footer{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+#rendez{
+    padding-top: 10px;
+}
+nav a {
+    padding-left: 10px;
 }
 @keyframes gradient{
     0%{background-position: 0%}

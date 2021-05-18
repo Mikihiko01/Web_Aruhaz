@@ -39,7 +39,7 @@ function kiir() {
     $("article table tr").append('<input type="button" id="torol" value="Töröl">');
 }
 function kepek() {
-    $("article img").attr("src", "kepek/porcelan_tanyer.jpg");
-    $("article img").attr("src", "kepek/porcelan_pohar.jpg");
-    $("article img").attr("src", "kepek/porcelan_kanal.jpg");
+    $("section img").attr("src", "kepek/porcelan_tanyer.jpg");
+    $("section img").attr("src", "kepek/porcelan_pohar.jpg");
+    $("section img").attr("src", "kepek/porcelan_kanal.jpg");
 }
