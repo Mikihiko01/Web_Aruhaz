@@ -1,4 +1,23 @@
 @charset "utf-8";
 main{
     max-width: 800px;
+    margin: auto;
+}
+body{
+    background: lightgoldenrodyellow;
+}
+table, td, th{
+    border: 1px solid gray;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background: linear-gradient(180deg,#c80000,#ffffff,#09ab23);
+    
+}
+@keyframes gradient{
+    0%{background-position: 0%}
+    100%{background-position: 100%}
 }
